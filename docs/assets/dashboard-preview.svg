@@ -1,0 +1,16 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="700" rx="18" fill="#F2F7FC"/>
+<rect x="24" y="24" width="220" height="652" rx="14" fill="white" stroke="#DCE7F5"/>
+<rect x="268" y="24" width="908" height="96" rx="14" fill="url(#h)"/>
+<defs><linearGradient id="h" x1="268" y1="24" x2="1176" y2="120"><stop stop-color="#0A4B78"/><stop offset="1" stop-color="#16B3A2"/></linearGradient></defs>
+<rect x="268" y="136" width="218" height="92" rx="12" fill="white" stroke="#DCE7F5"/>
+<rect x="498" y="136" width="218" height="92" rx="12" fill="white" stroke="#DCE7F5"/>
+<rect x="728" y="136" width="218" height="92" rx="12" fill="white" stroke="#DCE7F5"/>
+<rect x="958" y="136" width="218" height="92" rx="12" fill="white" stroke="#DCE7F5"/>
+<rect x="268" y="244" width="458" height="210" rx="12" fill="white" stroke="#DCE7F5"/>
+<rect x="738" y="244" width="438" height="210" rx="12" fill="white" stroke="#DCE7F5"/>
+<rect x="268" y="468" width="458" height="208" rx="12" fill="white" stroke="#DCE7F5"/>
+<rect x="738" y="468" width="438" height="208" rx="12" fill="white" stroke="#DCE7F5"/>
+<text x="306" y="83" fill="white" font-family="Segoe UI" font-size="34" font-weight="700">Executive Command Center</text>
+<text x="306" y="106" fill="#D6EEFF" font-family="Segoe UI" font-size="16">Advanced filters, customer spotlight, campaign priority, and strategic insights</text>
+</svg>
