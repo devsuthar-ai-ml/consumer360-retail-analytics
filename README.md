@@ -24,26 +24,14 @@
 ---
 
 ## Product Preview
-<table>
-  <tr>
-    <td><b>Executive Dashboard</b><br/>Light premium UI with sidebar control center, KPI strips, charts, spotlight search, and campaign queue.</td>
-    <td><b>Action Engine</b><br/>One-click exports for Champions and Churn Risk lists, ready for marketing and retention teams.</td>
-  </tr>
-  <tr>
-    <td><b>Analyst Friendly</b><br/>Deep sections for cohort retention, CLV leaderboard, and market basket opportunities.</td>
-    <td><b>Business Ready</b><br/>Weekly refresh pipeline + quality checks + API for integrations.</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="docs/assets/dashboard-preview.svg" alt="Dashboard Preview" width="100%" />
+</p>
 
 ## Architecture Snapshot
-```mermaid
-flowchart LR
-    A[SQL Layer<br/>Schema + Cleansing + Cohort SQL] --> B[Python Analytics Core<br/>RFM + CLV + MBA + Quality Checks]
-    B --> C[Reports + Dashboard Payload JSON]
-    C --> D[React Executive Dashboard]
-    C --> E[FastAPI Service]
-    E --> F[Integrations / Automation]
-```
+<p align="center">
+  <img src="docs/assets/architecture-flow.svg" alt="Architecture Flow" width="100%" />
+</p>
 
 ## Why Consumer360
 <table>
