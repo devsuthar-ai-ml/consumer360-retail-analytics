@@ -1,8 +1,9 @@
 <div align="center">
-  <img src="docs/assets/hero-banner.svg" alt="Consumer360 Hero" width="100%" />
+  <img src="https://raw.githubusercontent.com/devsuthar-ai-ml/consumer360-retail-analytics/main/docs/assets/hero-banner.svg" alt="Consumer360 Hero" width="100%" />
 
   <h1>Consumer360</h1>
   <p><b>Production-Ready Retail Intelligence Platform</b></p>
+  <p><i>Customer Segmentation • CLV Intelligence • Retention Analytics • Campaign Actioning</i></p>
 
   <p>
     <img src="https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white" />
@@ -11,18 +12,25 @@
     <img src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white" />
     <img src="https://img.shields.io/badge/Analytics-RFM%20%7C%20CLV%20%7C%20Cohort-orange" />
   </p>
+
+  <p>
+    <a href="#product-preview">Preview</a> •
+    <a href="#architecture-snapshot">Architecture</a> •
+    <a href="#quick-start">Quick Start</a> •
+    <a href="#api-endpoints">API</a>
+  </p>
 </div>
 
 ---
 
 ## Product Preview
 <p align="center">
-  <img src="docs/assets/dashboard-preview.svg" alt="Dashboard Preview" width="100%" />
+  <img src="https://raw.githubusercontent.com/devsuthar-ai-ml/consumer360-retail-analytics/main/docs/assets/dashboard-preview.svg" alt="Dashboard Preview" width="100%" />
 </p>
 
 ## Architecture Snapshot
 <p align="center">
-  <img src="docs/assets/architecture-flow.svg" alt="Architecture Flow" width="100%" />
+  <img src="https://raw.githubusercontent.com/devsuthar-ai-ml/consumer360-retail-analytics/main/docs/assets/architecture-flow.svg" alt="Architecture Flow" width="100%" />
 </p>
 
 ## Why Consumer360
