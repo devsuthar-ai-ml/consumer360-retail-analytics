@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/devsuthar-ai-ml/consumer360-retail-analytics/main/docs/assets/hero-banner.svg" alt="Consumer360 Hero" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B4F7D,40:0C7196,100:14B8A6&height=220&section=header&text=Consumer360&fontSize=56&fontColor=ffffff&desc=Production-Ready%20Retail%20Intelligence%20Platform&descSize=18&descAlignY=68" alt="Consumer360 Hero" width="100%" />
 
   <h1>Consumer360</h1>
   <p><b>Production-Ready Retail Intelligence Platform</b></p>
@@ -24,14 +24,26 @@
 ---
 
 ## Product Preview
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devsuthar-ai-ml/consumer360-retail-analytics/main/docs/assets/dashboard-preview.svg" alt="Dashboard Preview" width="100%" />
-</p>
+<table>
+  <tr>
+    <td><b>Executive Dashboard</b><br/>Light premium UI with sidebar control center, KPI strips, charts, spotlight search, and campaign queue.</td>
+    <td><b>Action Engine</b><br/>One-click exports for Champions and Churn Risk lists, ready for marketing and retention teams.</td>
+  </tr>
+  <tr>
+    <td><b>Analyst Friendly</b><br/>Deep sections for cohort retention, CLV leaderboard, and market basket opportunities.</td>
+    <td><b>Business Ready</b><br/>Weekly refresh pipeline + quality checks + API for integrations.</td>
+  </tr>
+</table>
 
 ## Architecture Snapshot
-<p align="center">
-  <img src="https://raw.githubusercontent.com/devsuthar-ai-ml/consumer360-retail-analytics/main/docs/assets/architecture-flow.svg" alt="Architecture Flow" width="100%" />
-</p>
+```mermaid
+flowchart LR
+    A[SQL Layer<br/>Schema + Cleansing + Cohort SQL] --> B[Python Analytics Core<br/>RFM + CLV + MBA + Quality Checks]
+    B --> C[Reports + Dashboard Payload JSON]
+    C --> D[React Executive Dashboard]
+    C --> E[FastAPI Service]
+    E --> F[Integrations / Automation]
+```
 
 ## Why Consumer360
 <table>
